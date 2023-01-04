@@ -1,0 +1,135 @@
+.alinear
+{
+  flex-wrap: wrap; 
+  display: flex; 
+  justify-content: center;
+}
+
+article
+{
+  margin: 5%;
+}
+
+.comida
+{
+  width: 300px;
+  height: 200px;
+  display: block;
+  border-radius: 50%;
+}
+
+.imagenGastronomia, .imagenVinos, .imagenBebidas
+{
+  width: 300px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.infoGastronomia, .infoVinos, .infoBebidas
+{
+  width: 298px;
+  height: 196px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  opacity: 0;
+}
+
+.textoGastronomia, .textoVinos, .textoBebidas
+{
+  margin-top: 6%;
+  margin-left: -100%;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  font-family: "Forte";
+  position: absolute;
+  -webkit-transition: margin 0.5s;
+}
+
+.textoInformativoGastronomia, .textoInformativoVino,  .textoInformativoBebidas
+{
+  margin-top: 90%;
+  color: white;
+  font-size: 20px;
+  font-family: "Constantia";
+  text-align: center;
+  padding: 10%;
+  -webkit-transition: margin 0.4s;
+}
+
+.imagenGastronomia
+{
+  background:url(./imagenes_Index/Hamburguesa1.jpg);
+}
+.imagenVinos
+{
+  background:url(./imagenes_Index/VUELÁSAUVIGNONBLANC2010.jpg);
+}
+.imagenBebidas
+{
+  background:url(./imagenes_Index/Beber.jpg);
+}
+
+/**/
+
+.infoGastronomia
+{
+  background: rgba(99,69,00,0.8);
+}
+.infoVinos
+{
+  background: rgba(90,00,09,0.6);
+}
+.infoBebidas
+{
+  background: rgba(00,59,99,0.8);
+}
+
+/**/
+
+.imagenGastronomia:hover .infoGastronomia
+{
+  opacity: 1;
+}
+.imagenVinos:hover .infoVinos
+{
+  opacity: 1;
+}
+.imagenBebidas:hover .infoBebidas
+{
+  opacity: 1;
+}
+
+/**/
+
+.imagenGastronomia:hover .textoGastronomia
+{
+  margin-left: 25%;
+}
+.imagenVinos:hover .textoVinos
+{
+  margin-left: 40%;
+}
+.imagenBebidas:hover .textoBebidas
+{
+  margin-left: 35%;
+}
+
+/**/
+
+.imagenGastronomia:hover .textoInformativoGastronomia
+{
+  margin-top: 16%;
+}
+.imagenVinos:hover .textoInformativoVino
+{
+  margin-top: 16%;
+}
+.imagenBebidas:hover  .textoInformativoBebidas
+{
+  margin-top: 16%;
+}

@@ -1,0 +1,175 @@
+.alinear
+{
+  flex-wrap: wrap; 
+  display: flex; 
+  justify-content: center;
+}
+
+article
+{
+  margin: 5%;
+}
+
+.comida
+{
+  width: 290px;
+  height: 190px;
+  display: block;
+  border-radius: 5%;
+}
+
+.imagenAgua, .imagenSangría, .imagenRaki, .imagenCoca, .imagenChaud, .imagenRussian
+{
+  width: 290px;
+  height: 190px;
+  border: 2px solid black;
+  border-radius: 5%;
+}
+
+.infoAgua, .infoSangría, .infoRaki, .infoCoca, .infoChaud, .infoRussian
+{
+  width: 287px;
+  height: 187px;
+  border-radius: 5%;
+  display: flex;
+  position: absolute;
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  opacity: 0;
+}
+
+.textoAgua, .textoSangría, .textoRaki, .textoCoca, .textoChaud, .textoRussian
+{
+  margin-top: 6%;
+  margin-left: -100%;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  font-family: "Forte";
+  position: absolute;
+  -webkit-transition: margin 0.5s;
+}
+
+.textoInformativoAgua, .textoInformativoSangría, .textoInformativoRaki, .textoInformativoCoca, .textoInformativoChaud, .textoInformativoRussian
+{
+  margin-top: 90%;
+  color: white;
+  font-size: 20px;
+  font-family: "Constantia";
+  text-align: center;
+  padding: 8%;
+  -webkit-transition: margin 0.4s;
+}
+
+.imagenAgua
+{
+  background:url(./imagenes_Bebidas/Agua.jpg);
+}
+.imagenSangría
+{
+  background:url(./imagenes_Bebidas/Sangría.jpg);
+}
+.imagenRaki
+{
+  background:url(./imagenes_Bebidas/Raki.jpg);
+}
+.imagenCoca
+{
+  background:url(./imagenes_Bebidas/Coca.jpg);
+}
+.imagenChaud
+{
+  background:url(./imagenes_Bebidas/VinChaud.jpg);
+}
+.imagenRussian
+{
+  background:url(./imagenes_Bebidas/BlackRussian.jpg);
+}
+
+/**/
+
+.infoAgua, .infoSangría, .infoRaki, .infoCoca, .infoChaud, .infoRussian
+{
+    background: rgba(00,59,99,0.8);
+}
+
+/**/
+
+.imagenAgua:hover .infoAgua
+{
+    opacity: 1;
+}
+.imagenSangría:hover .infoSangría
+{
+    opacity: 1;
+}
+.imagenRaki:hover .infoRaki
+{
+    opacity: 1;
+}
+.imagenCoca:hover .infoCoca
+{
+    opacity: 1;
+}
+.imagenChaud:hover .infoChaud
+{
+    opacity: 1;
+}
+.imagenRussian:hover .infoRussian
+{
+    opacity: 1;
+}
+
+/**/
+
+.imagenAgua:hover .textoAgua
+{
+    margin-left: 38%;
+}
+.imagenSangría:hover .textoSangría
+{
+    margin-left: 35%;
+}
+.imagenRaki:hover .textoRaki
+{
+    margin-left: 40%;
+}
+.imagenCoca:hover .textoCoca
+{
+    margin-left: 30%;
+}
+.imagenChaud:hover .textoChaud
+{
+    margin-left: 30%;
+}
+.imagenRussian:hover .textoRussian
+{
+    margin-left: 21%;
+}
+
+/**/
+
+.imagenAgua:hover .textoInformativoAgua
+{
+    margin-top: 16%;
+}
+.imagenSangría:hover .textoInformativoSangría
+{
+    margin-top: 16%;
+}
+.imagenRaki:hover .textoInformativoRaki
+{
+    margin-top: 16%;
+}
+.imagenCoca:hover .textoInformativoCoca
+{
+    margin-top: 16%;
+}
+.imagenChaud:hover .textoInformativoChaud
+{
+    margin-top: 16%;
+}
+.imagenRussian:hover .textoInformativoRussian
+{
+    margin-top: 16%;
+}

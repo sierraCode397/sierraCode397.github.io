@@ -1,0 +1,311 @@
+.alinear
+{
+  flex-wrap: wrap; 
+  display: flex; 
+  justify-content: center;
+}
+
+article
+{
+  margin: 5%;
+}
+
+.comida
+{
+  width: 300px;
+  height: 200px;
+  display: block;
+  border-radius: 5%;
+}
+
+.imagenFutomaki, .imagenNigiri, .imagenTeriyaki, .imagenCanelones, .imagenHawaiana, .imagenTocineta, .imagenTofu, .imagenBaozi, .imagenCamarones, .imagenTartiflette, .imagenRatatouille, .imagenCoq, .imagenShashlik, .imagenKiev, .imagenOlivie
+{
+  width: 300px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 5%;
+}
+
+.infoFutomaki, .infoNigiri, .infoTeriyaki, .infoCanelones, .infoHawaiana, .infoTocineta, .infoTofu, .infoBaozi, .infoCamarones, .infoTartiflette, .infoRatatouille, .infoCoq, .infoShashlik, .infoKiev, .infoOlivie
+{
+  width: 298px;
+  height: 198px;
+  border-radius: 5%;
+  background: rgba(00,00,00,0.8);
+  display: flex;
+  position: absolute;
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  opacity: 0;
+}
+
+.textoFutomaki, .textoNigiri, .textoTeriyaki, .textoCanelones, .textoHawaiana, .textoTocineta, .textoTofu, .textoBaozi, .textoCamarones, .textoTartiflette, .textoRatatouille, .textoCoq, .textoShashlik, .textoKiev, .textoOlivie
+{
+  margin-top: 6%;
+  margin-left: -100%;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  font-family: "Forte";
+  position: absolute;
+  -webkit-transition: margin 0.5s;
+}
+
+.textoInformativoFutomaki, .textoInformativoNigiri, .textoInformativoTeriyaki, .textoInformativoCanelones, .textoInformativoHawaiana, .textoInformativoTocineta, .textoInformativoTofu, .textoInformativoBaozi, .textoInformativoCamarones, .textoInformativoTartiflette, .textoInformativoRatatouille, .textoInformativoCoq, .textoInformativoShashlik, .textoInformativoKiev, .textoInformativoOlivie
+{
+  margin-top: 90%;
+  color: white;
+  font-size: 20px;
+  font-family: "Constantia";
+  text-align: center;
+  padding: 5%;
+  -webkit-transition: margin 0.4s;
+}
+
+.imagenFutomaki
+{
+  background: url(./imagenes_Gastronomia/Futomaki.jpg);
+}
+.imagenNigiri 
+{
+  background: url(./imagenes_Gastronomia/Nigiri.jpg);
+}
+.imagenTeriyaki 
+{
+  background: url(./imagenes_Gastronomia/Teriyaki.png);
+}
+.imagenCanelones
+{
+  background: url(./imagenes_Gastronomia/Canelos.jpg);
+} 
+.imagenHawaiana 
+{
+  background: url(./imagenes_Gastronomia/Hawaiana.jpg);
+}
+.imagenTocineta 
+{
+  background: url(./imagenes_Gastronomia/Sopatocineta.jpg);
+}
+.imagenTofu 
+{
+  background: url(./imagenes_Gastronomia/Tofu.jpg);
+}
+.imagenBaozi 
+{
+  background: url(./imagenes_Gastronomia/Baozi.jpg);
+}
+.imagenCamarones 
+{
+  background: url(./imagenes_Gastronomia/Camarones.jpg);
+}
+.imagenTartiflette 
+{
+  background: url(./imagenes_Gastronomia/Tartiflette.jpg);
+}
+.imagenRatatouille 
+{
+  background: url(./imagenes_Gastronomia/Ratatouille.jpg);
+}
+.imagenCoq 
+{
+  background: url(./imagenes_Gastronomia/Coqauvin.jpeg);
+}
+.imagenShashlik 
+{
+  background: url(./imagenes_Gastronomia/Shashlik.jpg);
+}
+.imagenKiev 
+{
+  background: url(./imagenes_Gastronomia/Kotletapo-kievski.jpg);
+}
+.imagenOlivie
+{
+  background: url(./imagenes_Gastronomia/Olivie.jpg);
+}
+
+.imagenFutomaki:hover .infoFutomaki
+{
+  opacity: 1;
+}
+.imagenNigiri:hover .infoNigiri 
+{
+  opacity: 1;
+}
+.imagenTeriyaki:hover .infoTeriyaki 
+{
+  opacity: 1;
+}
+.imagenCanelones:hover .infoCanelones 
+{
+  opacity: 1;
+} 
+.imagenHawaiana:hover .infoHawaiana 
+{
+  opacity: 1;
+}
+.imagenTocineta:hover .infoTocineta 
+{
+  opacity: 1;
+}
+.imagenTofu:hover .infoTofu 
+{
+  opacity: 1;
+}
+.imagenBaozi:hover .infoBaozi 
+{
+  opacity: 1;
+}
+.imagenCamarones:hover .infoCamarones 
+{
+  opacity: 1
+}
+.imagenTartiflette:hover .infoTartiflette 
+{
+  opacity: 1;
+}
+.imagenRatatouille:hover .infoRatatouille 
+{
+  opacity: 1;
+}
+.imagenCoq:hover .infoCoq 
+{
+  opacity: 1;
+}
+.imagenShashlik:hover .infoShashlik 
+{
+  opacity: 1;
+}
+.imagenKiev:hover .infoKiev 
+{
+  opacity: 1;
+}
+.imagenOlivie:hover .infoOlivie
+{
+  opacity: 1; 
+}
+
+/**/
+
+.imagenFutomaki:hover .textoFutomaki
+{
+  margin-left: 31%;
+}
+.imagenNigiri:hover .textoNigiri 
+{
+  margin-left: 40%;
+}
+.imagenTeriyaki:hover .textoTeriyaki 
+{
+  margin-left: 35%;
+}
+.imagenCanelones:hover .textoCanelones 
+{
+  margin-left: 28%;
+} 
+.imagenHawaiana:hover .textoHawaiana 
+{
+  margin-left: 30%;
+}
+.imagenTocineta:hover .textoTocineta 
+{
+  margin-left: 23%;
+}
+.imagenTofu:hover .textoTofu 
+{
+  margin-left: 42%;
+}
+.imagenBaozi:hover .textoBaozi 
+{
+  margin-left: 38%;
+}
+.imagenCamarones:hover .textoCamarones 
+{
+  margin-left: 15%;
+}
+.imagenTartiflette:hover .textoTartiflette 
+{
+  margin-left: 30%;
+}
+.imagenRatatouille:hover .textoRatatouille 
+{
+  margin-left: 25%;
+}
+.imagenCoq:hover .textoCoq 
+{
+  margin-left: 28%;
+}
+.imagenShashlik:hover .textoShashlik 
+{
+  margin-left: 32%;
+}
+.imagenKiev:hover .textoKiev 
+{
+  margin-left: 28%;
+}
+.imagenOlivie:hover .textoOlivie
+{
+  margin-left: 40%; 
+}
+
+/**/
+
+.imagenFutomaki:hover .textoInformativoFutomaki
+{
+  margin-top: 16%;
+}
+.imagenNigiri:hover .textoInformativoNigiri 
+{
+  margin-top: 16%;
+}
+.imagenTeriyaki:hover .textoInformativoTeriyaki 
+{
+  margin-top: 16%;
+}
+.imagenCanelones:hover .textoInformativoCanelones 
+{
+  margin-top: 16%;
+} 
+.imagenHawaiana:hover .textoInformativoHawaiana 
+{
+  margin-top: 16%;
+}
+.imagenTocineta:hover .textoInformativoTocineta 
+{
+  margin-top: 16%;
+}
+.imagenTofu:hover .textoInformativoTofu 
+{
+  margin-top: 16%;
+}
+.imagenBaozi:hover .textoInformativoBaozi 
+{
+  margin-top: 16%;
+}
+.imagenCamarones:hover .textoInformativoCamarones 
+{
+  margin-top: 16%;
+}
+.imagenTartiflette:hover .textoInformativoTartiflette 
+{
+  margin-top: 16%;
+}
+.imagenRatatouille:hover .textoInformativoRatatouille 
+{
+  margin-top: 16%;
+}
+.imagenCoq:hover .textoInformativoCoq 
+{
+  margin-top: 16%;
+}
+.imagenShashlik:hover .textoInformativoShashlik 
+{
+  margin-top: 16%;
+}
+.imagenKiev:hover .textoInformativoKiev 
+{
+  margin-top: 16%;
+}
+.imagenOlivie:hover .textoInformativoOlivie
+{
+  margin-top: 16%; 
+}

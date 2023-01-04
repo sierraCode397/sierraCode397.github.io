@@ -1,0 +1,179 @@
+.alinear
+{
+  flex-wrap: wrap; 
+  display: flex; 
+  justify-content: center;
+}
+
+article
+{
+  margin: 5%;
+}
+
+.comida
+{
+  width: 290px;
+  height: 190px;
+  display: block;
+  border-radius: 5%;
+}
+
+.imagenMargaux, .imagenChapoutie, .imagenMaría, .imagenGrigio, .imagenChardonnay, .imagenBLANC
+{
+  width: 290px;
+  height: 190px;
+  border: 2px solid black;
+  border-radius: 5%;
+}
+
+.infoMargaux, .infoChapoutie, .infoMaría, .infoGrigio, .infoChardonnay, .infoBLANC
+{
+  width: 287px;
+  height: 187px;
+  border-radius: 5%;
+  display: flex;
+  position: absolute;
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  opacity: 0;
+}
+
+.textoMargaux, .textoChapoutie, .textoMaría, .textoGrigio, .textoChardonnay, .textoBLANC
+{
+  margin-top: 6%;
+  margin-left: -100%;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  font-family: "Forte";
+  position: absolute;
+  -webkit-transition: margin 0.5s;
+}
+
+.textoInformativoMargaux, .textoInformativoChapoutie, .textoInformativoMaría, .textoInformativoGrigio, .textoInformativoChardonnay, .textoInformativoBLANC
+{
+  margin-top: 90%;
+  color: white;
+  font-size: 20px;
+  font-family: "Constantia";
+  text-align: center;
+  padding: 8%;
+  -webkit-transition: margin 0.4s;
+}
+
+.imagenMargaux
+{
+  background:url(./imagenes_Vinos/ChâteauMargaux.jpg);
+}
+.imagenChapoutie
+{
+  background:url(./imagenes_Vinos/MichelChapoutier.jpg);
+}
+.imagenMaría
+{
+  background:url(./imagenes_Vinos/VillaMaría.jpg);
+}
+.imagenGrigio
+{
+  background:url(./imagenes_Vinos/ALTOUXMALPINOTGRIGIO2009.jpg);
+}
+.imagenChardonnay
+{
+  background:url(./imagenes_Vinos/SERVALCHARDONNAY2009.jpg);
+}
+.imagenBLANC
+{
+  background:url(./imagenes_Vinos/SEPTIMASAUVIGNONBLANC2010.jpg);
+}
+
+/**/
+
+.infoMargaux, .infoChapoutie, .infoMaría
+{
+    background: rgba(93,00,09,0.7);
+}
+.infoGrigio, .infoChardonnay, .infoBLANC
+{
+    background: rgba(99,99,99,0.8);
+}
+
+/**/
+
+.imagenMargaux:hover .infoMargaux
+{
+    opacity: 1;
+}
+.imagenChapoutie:hover .infoChapoutie
+{
+    opacity: 1;
+}
+.imagenMaría:hover .infoMaría
+{
+    opacity: 1;
+}
+.imagenGrigio:hover .infoGrigio
+{
+    opacity: 1;
+}
+.imagenChardonnay:hover .infoChardonnay
+{
+    opacity: 1;
+}
+.imagenBLANC:hover .infoBLANC
+{
+    opacity: 1;
+}
+
+/**/
+
+.imagenMargaux:hover .textoMargaux
+{
+    margin-left: 15%;
+}
+.imagenChapoutie:hover .textoChapoutie
+{
+    margin-left: 16%;
+}
+.imagenMaría:hover .textoMaría
+{
+    margin-left: 26%;
+}
+.imagenGrigio:hover .textoGrigio
+{
+    margin-left: 4%;
+}
+.imagenChardonnay:hover .textoChardonnay
+{
+    margin-left: 14%;
+}
+.imagenBLANC:hover .textoBLANC
+{
+    margin-left: 9%;
+}
+
+/**/
+
+.imagenMargaux:hover .textoInformativoMargaux
+{
+    margin-top: 16%;
+}
+.imagenChapoutie:hover .textoInformativoChapoutie
+{
+    margin-top: 16%;
+}
+.imagenMaría:hover .textoInformativoMaría
+{
+    margin-top: 16%;
+}
+.imagenGrigio:hover .textoInformativoGrigio
+{
+    margin-top: 16%;
+}
+.imagenChardonnay:hover .textoInformativoChardonnay
+{
+    margin-top: 16%;
+}
+.imagenBLANC:hover .textoInformativoBLANC
+{
+    margin-top: 16%;
+}
