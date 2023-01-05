@@ -120,7 +120,7 @@ input
     }
 }
 
-@media (max-width: 100vh)
+@media (max-width: 400px)
 {
     .menu
     {
@@ -134,16 +134,15 @@ input
 
     #Menu-bar:checked + label .menu2
     {
-        transform: translateX(-66vh);
+        transform: translateX(-46%);
         transition: all 0.5s;
     }
 
     .boton
     {   
         height: 76%;
-        width: 6%;
-        margin-left: 40%;
-        margin-top: 1vh;
+        width: 12%;
+        margin-top: 2vh;
         font-size: 5.5vh;
         color: white;
         display: flex;
