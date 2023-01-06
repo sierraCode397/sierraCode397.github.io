@@ -78,6 +78,13 @@ input
     display: none;
 }
 
+.contenedorMenu2
+{
+    width: 80vh;
+    height: 60vh;
+    display: flex;
+}
+
 .menu2
 {
     width: 80vh;
@@ -140,10 +147,10 @@ input
 
     .boton
     {   
-        height: 76%;
-        width: 12%;
+        height: 53%;
+        width: 8%;
         margin-top: 2vh;
-        font-size: 5.5vh;
+        font-size: 5vh;
         color: white;
         display: flex;
         transition: all 0.5s;
