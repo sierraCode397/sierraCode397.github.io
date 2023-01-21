@@ -1,0 +1,144 @@
+/* Elementos generales */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Inicio de header */
+
+.contenedor-header {
+  position: relative;
+  width: 100vw;
+  height: 11vh;
+  background-color: rgba(68, 68, 68, 0.25);
+}
+
+.logo-container {
+  display: inline-block;
+  width: 4.5rem;
+  height: 4.5rem;
+  margin: 1.3rem 1.5vh;
+
+}
+
+.img-logo {
+  display: inline;
+  width: inherit;
+  height: inherit;
+}
+
+.nav-conteiner, .lista-nav, .elementos-nav {
+  display: inline;
+  list-style: none;
+}
+
+.nav-conteiner {
+  position: absolute;
+  font-size: 2rem;
+  margin-top: 4vh;
+  right: 0
+}
+
+.elementos-nav {
+  margin: 0 2vw;
+}
+
+.elementos-nav a {
+  color: white
+}
+
+/* Inicio de main */
+
+.contenedor-main {
+  height: 78vh;
+}
+
+.conteiner-section-main {
+  display: inline-block;
+}
+
+.title-main {
+  position: relative;
+  display: inline-block;
+  margin-left: 60vw;
+  margin-top: 25vh;
+  color: white;
+}
+
+.title-main h1 {
+  font-size: 3rem;
+}
+
+.title-main p {
+  font-size: 2rem;
+}
+
+.fondo-pantalla img {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Inicio de aside */
+
+.contenedor-aside {
+  display: inline-block;
+  position: absolute;
+  min-width: 15rem;
+  max-height: 78%;
+  width: 17%;
+  height: 780%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.items-aside {
+  margin: 9%;
+  align-items: center;
+  position: relative;
+  width: 80%;
+  height: 20%;
+  max-height: 20%;
+  background-color: rgba(80, 80, 80, 0.0);
+}
+
+.img-container-diplomas {
+  width: 100%;
+  height: 100%;
+}
+
+.img-diplomas {
+  border-radius: 1rem;
+  width: inherit;
+  height: inherit;
+}
+
+/* Inicio de fooder */
+
+.contenedor-fooder {
+  position: relative;
+  height: 11vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.social-container {
+  text-align: center;
+}
+
+.social-media {
+  display: inline-block;
+  margin-top: 2vh;
+  margin-left: 2vw;
+  width: 4.5rem;
+  height: 4.5rem;
+}
