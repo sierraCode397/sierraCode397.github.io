@@ -14,39 +14,49 @@ a {
   text-decoration: none;
 }
 
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.fondo-pantalla {
+  background-image: url(https://imgur.com/SWgjotA.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 /* Inicio de header */
 
 .contenedor-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
   position: relative;
-  width: 100vw;
-  height: 11vh;
+  width: inherit;
+  height: 7rem;
   background-color: rgba(68, 68, 68, 0.25);
 }
 
-.logo-container {
-  display: inline-block;
+.logo-container, .img-logo {
+  margin-left: 1%;
   width: 4.5rem;
   height: 4.5rem;
-  margin: 1.3rem 1.5vh;
-
-}
-
-.img-logo {
-  display: inline;
-  width: inherit;
-  height: inherit;
 }
 
 .nav-conteiner, .lista-nav, .elementos-nav {
-  display: inline;
   list-style: none;
 }
 
 .nav-conteiner {
-  position: absolute;
+  position: relative;
   font-size: 2rem;
-  margin-top: 4vh;
-  right: 0
+  margin-right: 2%;
+}
+
+.lista-nav {
+  display: flex;
 }
 
 .elementos-nav {
@@ -60,18 +70,18 @@ a {
 /* Inicio de main */
 
 .contenedor-main {
-  height: 78vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
 }
 
 .conteiner-section-main {
-  display: inline-block;
+  margin-right: 5%;
 }
 
 .title-main {
   position: relative;
-  display: inline-block;
-  margin-left: 50vw;
-  margin-top: 25vh;
   color: white;
 }
 
@@ -83,37 +93,27 @@ a {
   font-size: 2rem;
 }
 
-.fondo-pantalla img {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-}
-
 /* Inicio de aside */
 
 .contenedor-aside {
-  display: inline-block;
-  position: absolute;
-  min-width: 15rem;
-  max-height: 80%;
-  width: 17%;
-  height: 79%;
-  background-color: rgba(0, 0, 0, 0.6);
-}
-
-.items-aside {
-  margin: 9%;
-  align-items: center;
+  display: flex;
   position: relative;
-  width: 80%;
-  height: 20%;
-  max-height: 20%;
-  background-color: rgba(80, 80, 80, 0.0);
+  min-width: 15rem;
+  max-height: 78%;
+  width: 17%;
+  height: 78%;
+  background-color: rgba(0, 0, 0, 0.6);
+  flex-direction: column;
+  align-items: center;
 }
 
 .img-container-diplomas {
-  width: 100%;
-  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 9% 0;
+  position: relative;
+  width: 80%;
+  height: 20%;
 }
 
 .img-diplomas {
@@ -126,19 +126,16 @@ a {
 
 .contenedor-fooder {
   position: relative;
-  height: 11vh;
+  width: inherit;
+  height: 10.5vh;
   background-color: rgba(0, 0, 0, 0.5);
-}
-
-
-.social-container {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .social-media {
-  display: inline-block;
-  margin-top: 2vh;
-  margin-left: 2vw;
+  margin: 0 1.5vw;
   width: 4.5rem;
   height: 4.5rem;
 }
