@@ -70,7 +70,7 @@ a {
 .title-main {
   position: relative;
   display: inline-block;
-  margin-left: 60vw;
+  margin-left: 50vw;
   margin-top: 25vh;
   color: white;
 }
@@ -95,9 +95,9 @@ a {
   display: inline-block;
   position: absolute;
   min-width: 15rem;
-  max-height: 78%;
+  max-height: 80%;
   width: 17%;
-  height: 780%;
+  height: 79%;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
