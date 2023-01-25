@@ -1,0 +1,48 @@
+/* Inicio de main */
+
+.contenedor-main {
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Inicio de aside */
+
+.contenedor-aside {
+  width: 25%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.img-container-diplomas {
+  margin: 10% 0;
+  width: 90%;
+  height: 100%;
+}
+
+.img-diplomas {
+  width: 85%;
+  height: auto;
+}
+
+/* Inicio de seccion 1 */
+
+.conteiner-section-title {
+  width: 55%;
+  padding: 16rem;
+  align-items: normal;
+}
+
+.title-main {
+  color: black;
+  flex-direction: row;
+  justify-content: normal;
+}
+
+/* Inicio de seccion 2 */
+
+.container-section-main-secundary {
+  height: auto;
+  width: 45%;
+}

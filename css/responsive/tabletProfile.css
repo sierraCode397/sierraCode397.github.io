@@ -1,0 +1,32 @@
+.contenedor-aside {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: normal;
+    justify-content: space-evenly;
+}
+
+.img-container-diplomas {
+    margin: 11% 0;
+    width: 45%;
+    height: 100%;
+}
+
+.img-diplomas {
+    width: 80%;
+    height: 50%;
+}
+
+.container-section-main-secundary {
+    height: 92vh;
+}
+
+.container-title-information {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.conteiner-section-title {
+    width: 50%;
+    padding: 7%;
+    align-items: center;
+}
