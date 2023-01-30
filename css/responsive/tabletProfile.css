@@ -6,7 +6,7 @@
 }
 
 .img-container-diplomas {
-    margin: 11% 0;
+    margin: 8% 0;
     width: 45%;
     height: 100%;
 }
@@ -17,7 +17,7 @@
 }
 
 .container-section-main-secundary {
-    height: 92vh;
+    padding: 0.5rem;
 }
 
 .container-title-information {
@@ -27,6 +27,6 @@
 
 .conteiner-section-title {
     width: 50%;
-    padding: 7%;
-    align-items: center;
+    padding: 0% 8%;
+    padding-top: 20%;
 }
