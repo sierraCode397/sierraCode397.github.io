@@ -30,7 +30,7 @@
     flex-wrap: wrap;
     position: relative;
     width: inherit;
-    height: 7rem;
+    height: 6rem;
     background-color: rgba(0, 0, 0, 0.4);
   }
   
@@ -96,6 +96,7 @@
     position: relative;
     width: 85%;
     height: 100%;
+    object-fit: cover;
   }
   
   .img-diplomas {
@@ -118,12 +119,12 @@
   
   .conteiner-section-title {
     padding: 17%;
-    padding-bottom: 70vh;
+    padding-bottom: 60%;
     display: flex;
+    flex-direction: column;
   }
   
   .title-main {
-    display: flex;
     position: relative;
     color: rgb(255 255 255);
     flex-direction: row-reverse;
@@ -139,7 +140,24 @@
   .title-main p {
     font-size: 2rem;
   }
+
+  .e-commerce{
+    margin-top: 31vh;
+  }
+  .e-commerce button {
+    cursor: pointer;
+    padding: 2rem;
+    font-weight: bold;
+    border: 0.2rem solid white;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.32);
+  }
   
+  .e-commerce button:hover {
+    background-color: rgba(0, 0, 0, 0.027);
+  }
+
   /* Inicio de seccion 2 */
   
   .container-section-main-secundary {

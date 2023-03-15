@@ -9,16 +9,23 @@
 /* Inicio de aside */
 
 .contenedor-aside {
-  width: 25%;
-  flex-direction: column;
-  flex-wrap: nowrap;
+  width: 28%;
+  height: 100vh;
+  overflow-y: scroll;
+  position: sticky;
+  top: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
 }
 
+.contenedor-aside::-webkit-scrollbar{
+  display: none;
+}
+
 .img-container-diplomas {
-  margin: 10% 0;
-  width: 90%;
-  height: 100%;
+  width: 26rem;
+  height: 18rem;
 }
 
 .img-diplomas {
@@ -29,8 +36,9 @@
 /* Inicio de seccion 1 */
 
 .conteiner-section-title {
-  width: 55%;
-  padding: 16rem;
+  margin-left: 4%;
+  width: 40%;
+  padding: 10rem;
   align-items: normal;
 }
 
@@ -44,7 +52,7 @@
 
 .container-section-main-secundary {
   height: auto;
-  width: 45%;
+  width: 44%;
 }
 
 .container-section-cv {
