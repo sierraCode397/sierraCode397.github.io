@@ -118,7 +118,7 @@
   
   .conteiner-section-title {
     padding: 17%;
-    padding-bottom: 60%;
+    padding-bottom: 50%;
     display: flex;
     flex-direction: column;
   }
@@ -141,8 +141,9 @@
   }
 
   .e-commerce{
-    margin-top: 31vh;
+    margin-top: 16vh;
   }
+
   .e-commerce button {
     cursor: pointer;
     padding: 2rem;
@@ -154,6 +155,24 @@
   }
   
   .e-commerce button:hover {
+    background-color: rgba(0, 0, 0, 0.027);
+  }
+
+  .curriculum{
+    margin-top: 18vh;
+  }
+
+  .curriculum button{
+    cursor: pointer;
+    padding: 2rem;
+    font-weight: bold;
+    border: 0.2rem solid white;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.32);
+  }
+
+  .curriculum button:hover {
     background-color: rgba(0, 0, 0, 0.027);
   }
 
