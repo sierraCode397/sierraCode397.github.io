@@ -50,7 +50,7 @@
   .nav-conteiner {
     position: relative;
     font-size: 1.8rem;
-    margin-right: 2%;
+    margin-right: 0.2rem;
   }
   
   .lista-nav {
@@ -58,11 +58,15 @@
   }
   
   .elementos-nav {
-    margin: 0 2vw;
+    margin: 0 1rem;
   }
   
   .elementos-nav a {
     color: white
+  }
+
+  .elementos-nav a:hover {
+    font-weight: bold;
   }
   
   /* Inicio de main */
