@@ -1,4 +1,4 @@
-.fondo-pantalla{
+.fondo-pantalla {
   height: 100vh;
 }
 
@@ -14,14 +14,14 @@
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-between;
-  height: 85%;
+  height: 79%;
 }
 
 /* Inicio de aside */
 
 .contenedor-aside {
   width: 30rem;
-  height: 85vh;
+  height: 79vh;
   overflow-y: scroll;
   position: sticky;
   top: 0;
@@ -70,7 +70,7 @@
 /* Inicio de seccion 2 */
 
 .container-section-main-secundary {
-  height: 85vh;
+  height: 79vh;
   width: 44%;
 }
 
