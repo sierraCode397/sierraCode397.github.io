@@ -99,10 +99,9 @@
   .img-container-diplomas {
     display: flex;
     justify-content: center;
-    margin: 7% 10% 0% 10.5%;
+    margin: 7% 10% 7% 10.5%;
     position: relative;
     width: 28rem;
-    height: 90%;
     object-fit: cover;
   }
   
@@ -150,7 +149,7 @@
   }
 
   .e-commerce, .curriculum{
-    margin-top: 30%;
+    margin-top: 28%;
   }
 
   .e-commerce button {

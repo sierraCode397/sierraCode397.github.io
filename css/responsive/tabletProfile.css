@@ -1,23 +1,25 @@
-.contenedor-aside {
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: normal;
-    justify-content: space-evenly;
+.contenedor-header {
+    height: 5rem;
 }
+
+/* Imagenes */
+
+.contenedor-aside {
+    height: 18rem;
+  }
 
 .img-container-diplomas {
-    margin: 8% 0;
-    width: 45%;
-    height: 100%;
-}
+    margin: 0% 4%;
+    width: 17rem;
+    height: 12rem;
+  }
 
-.img-diplomas {
-    width: 80%;
-    height: 50%;
-}
+/* secciones */
 
 .container-section-main-secundary {
     padding: 0.5rem;
+    margin-top: 0%;
+    height: 50rem;
 }
 
 .container-title-information {
@@ -27,6 +29,19 @@
 
 .conteiner-section-title {
     width: 50%;
-    padding: 0% 8%;
-    padding-top: 20%;
+    padding: 4% 8%;
+    height: 88vh;
 }
+
+/* Botones */
+
+.e-commerce button, .curriculum button{
+    font-size: 2rem;
+    padding: 1rem;
+    width: 20rem;
+    height: 8rem;
+  }
+
+  .e-commerce, .curriculum{
+    margin-top: 20%;
+  }
